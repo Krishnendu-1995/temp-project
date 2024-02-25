@@ -1,0 +1,226 @@
+namespace tempsetting.setting
+{
+    partial class Usersetting
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.user_setting_pnl = new System.Windows.Forms.Panel();
+            this.c_pass_tb = new System.Windows.Forms.TextBox();
+            this.pass_tb = new System.Windows.Forms.TextBox();
+            this.email_id_tb = new System.Windows.Forms.TextBox();
+            this.last_name_tb = new System.Windows.Forms.TextBox();
+            this.first_name_tb = new System.Windows.Forms.TextBox();
+            this.c_pass_lb = new System.Windows.Forms.Label();
+            this.pass_lb = new System.Windows.Forms.Label();
+            this.email_id_lb = new System.Windows.Forms.Label();
+            this.last_name_lb = new System.Windows.Forms.Label();
+            this.first_name_lb = new System.Windows.Forms.Label();
+            this.reset_btn = new System.Windows.Forms.Button();
+            this.update_btn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.user_setting_pnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // user_setting_pnl
+            // 
+            this.user_setting_pnl.BackColor = System.Drawing.Color.White;
+            this.user_setting_pnl.Controls.Add(this.c_pass_tb);
+            this.user_setting_pnl.Controls.Add(this.pass_tb);
+            this.user_setting_pnl.Controls.Add(this.email_id_tb);
+            this.user_setting_pnl.Controls.Add(this.last_name_tb);
+            this.user_setting_pnl.Controls.Add(this.first_name_tb);
+            this.user_setting_pnl.Controls.Add(this.c_pass_lb);
+            this.user_setting_pnl.Controls.Add(this.pass_lb);
+            this.user_setting_pnl.Controls.Add(this.email_id_lb);
+            this.user_setting_pnl.Controls.Add(this.last_name_lb);
+            this.user_setting_pnl.Controls.Add(this.first_name_lb);
+            this.user_setting_pnl.Controls.Add(this.reset_btn);
+            this.user_setting_pnl.Controls.Add(this.update_btn);
+            this.user_setting_pnl.Controls.Add(this.pictureBox1);
+            this.user_setting_pnl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.user_setting_pnl.Location = new System.Drawing.Point(0, 0);
+            this.user_setting_pnl.Name = "user_setting_pnl";
+            this.user_setting_pnl.Size = new System.Drawing.Size(960, 555);
+            this.user_setting_pnl.TabIndex = 0;
+            // 
+            // c_pass_tb
+            // 
+            this.c_pass_tb.Location = new System.Drawing.Point(501, 443);
+            this.c_pass_tb.Multiline = true;
+            this.c_pass_tb.Name = "c_pass_tb";
+            this.c_pass_tb.Size = new System.Drawing.Size(343, 36);
+            this.c_pass_tb.TabIndex = 25;
+            // 
+            // pass_tb
+            // 
+            this.pass_tb.Location = new System.Drawing.Point(501, 351);
+            this.pass_tb.Multiline = true;
+            this.pass_tb.Name = "pass_tb";
+            this.pass_tb.Size = new System.Drawing.Size(343, 36);
+            this.pass_tb.TabIndex = 24;
+            // 
+            // email_id_tb
+            // 
+            this.email_id_tb.Location = new System.Drawing.Point(501, 265);
+            this.email_id_tb.Multiline = true;
+            this.email_id_tb.Name = "email_id_tb";
+            this.email_id_tb.Size = new System.Drawing.Size(343, 36);
+            this.email_id_tb.TabIndex = 23;
+            // 
+            // last_name_tb
+            // 
+            this.last_name_tb.Location = new System.Drawing.Point(499, 181);
+            this.last_name_tb.Multiline = true;
+            this.last_name_tb.Name = "last_name_tb";
+            this.last_name_tb.Size = new System.Drawing.Size(343, 36);
+            this.last_name_tb.TabIndex = 22;
+            // 
+            // first_name_tb
+            // 
+            this.first_name_tb.Location = new System.Drawing.Point(499, 92);
+            this.first_name_tb.Multiline = true;
+            this.first_name_tb.Name = "first_name_tb";
+            this.first_name_tb.Size = new System.Drawing.Size(343, 36);
+            this.first_name_tb.TabIndex = 21;
+            // 
+            // c_pass_lb
+            // 
+            this.c_pass_lb.AutoSize = true;
+            this.c_pass_lb.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c_pass_lb.Location = new System.Drawing.Point(498, 416);
+            this.c_pass_lb.Name = "c_pass_lb";
+            this.c_pass_lb.Size = new System.Drawing.Size(169, 24);
+            this.c_pass_lb.TabIndex = 20;
+            this.c_pass_lb.Text = "Confirm Password";
+            // 
+            // pass_lb
+            // 
+            this.pass_lb.AutoSize = true;
+            this.pass_lb.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pass_lb.Location = new System.Drawing.Point(498, 324);
+            this.pass_lb.Name = "pass_lb";
+            this.pass_lb.Size = new System.Drawing.Size(94, 24);
+            this.pass_lb.TabIndex = 19;
+            this.pass_lb.Text = "Password";
+            // 
+            // email_id_lb
+            // 
+            this.email_id_lb.AutoSize = true;
+            this.email_id_lb.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email_id_lb.Location = new System.Drawing.Point(497, 238);
+            this.email_id_lb.Name = "email_id_lb";
+            this.email_id_lb.Size = new System.Drawing.Size(83, 24);
+            this.email_id_lb.TabIndex = 18;
+            this.email_id_lb.Text = "Email Id";
+            // 
+            // last_name_lb
+            // 
+            this.last_name_lb.AutoSize = true;
+            this.last_name_lb.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.last_name_lb.Location = new System.Drawing.Point(497, 154);
+            this.last_name_lb.Name = "last_name_lb";
+            this.last_name_lb.Size = new System.Drawing.Size(111, 24);
+            this.last_name_lb.TabIndex = 17;
+            this.last_name_lb.Text = "Last Name ";
+            // 
+            // first_name_lb
+            // 
+            this.first_name_lb.AutoSize = true;
+            this.first_name_lb.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.first_name_lb.Location = new System.Drawing.Point(496, 65);
+            this.first_name_lb.Name = "first_name_lb";
+            this.first_name_lb.Size = new System.Drawing.Size(112, 24);
+            this.first_name_lb.TabIndex = 16;
+            this.first_name_lb.Text = "First Name ";
+            this.first_name_lb.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // reset_btn
+            // 
+            this.reset_btn.BackColor = System.Drawing.Color.RoyalBlue;
+            this.reset_btn.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reset_btn.ForeColor = System.Drawing.Color.White;
+            this.reset_btn.Location = new System.Drawing.Point(138, 426);
+            this.reset_btn.Name = "reset_btn";
+            this.reset_btn.Size = new System.Drawing.Size(209, 45);
+            this.reset_btn.TabIndex = 15;
+            this.reset_btn.Text = "Reset";
+            this.reset_btn.UseVisualStyleBackColor = false;
+            // 
+            // update_btn
+            // 
+            this.update_btn.BackColor = System.Drawing.Color.RoyalBlue;
+            this.update_btn.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.update_btn.ForeColor = System.Drawing.Color.White;
+            this.update_btn.Location = new System.Drawing.Point(138, 340);
+            this.update_btn.Name = "update_btn";
+            this.update_btn.Size = new System.Drawing.Size(209, 47);
+            this.update_btn.TabIndex = 14;
+            this.update_btn.Text = "Update";
+            this.update_btn.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(109, 80);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(261, 221);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Usersetting
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.user_setting_pnl);
+            this.Name = "Usersetting";
+            this.Size = new System.Drawing.Size(960, 555);
+            this.user_setting_pnl.ResumeLayout(false);
+            this.user_setting_pnl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel user_setting_pnl;
+        private System.Windows.Forms.TextBox c_pass_tb;
+        private System.Windows.Forms.TextBox pass_tb;
+        private System.Windows.Forms.TextBox email_id_tb;
+        private System.Windows.Forms.TextBox last_name_tb;
+        private System.Windows.Forms.TextBox first_name_tb;
+        private System.Windows.Forms.Label c_pass_lb;
+        private System.Windows.Forms.Label pass_lb;
+        private System.Windows.Forms.Label email_id_lb;
+        private System.Windows.Forms.Label last_name_lb;
+        private System.Windows.Forms.Label first_name_lb;
+        private System.Windows.Forms.Button reset_btn;
+        private System.Windows.Forms.Button update_btn;
+        private System.Windows.Forms.PictureBox pictureBox1;
+    }
+}
